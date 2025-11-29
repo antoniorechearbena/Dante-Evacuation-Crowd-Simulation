@@ -1,7 +1,7 @@
 # Dante-Evacuation-Crowd-Simulation
 Agent-based evacuation simulation of the Dante building (Tilburg University) using NetLogo 3D. Analyzes evacuation time, crowd crush risk, and hazardous bottlenecks via pressure based modeling, statistical analysis, and spatial heatmaps.
 
-# Modeling Evacuation Crowd Crush in the Dante Building
+## Modeling Evacuation Crowd Crush in the Dante Building
 
 This project studies evacuation dynamics and crowd crush risk in the Dante building at Tilburg University using an agent-based simulation implemented in NetLogo 3D.
 
