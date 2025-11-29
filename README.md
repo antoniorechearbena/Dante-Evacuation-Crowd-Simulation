@@ -85,7 +85,7 @@ In addition, real evacuation and emergency response data from past **Dante build
   - Aggregates pressure across runs and clips extreme values to make the map readable.  
   - Produces the **pressure heatmap** used in the report to highlight stairwells, corridor junctions, and exit-adjacent hotspots.
 
-> **Note:** file paths inside the Python/Notebook files (e.g., `FILE_PATH = ...`) may need to be updated to match your local directory when rerunning the analysis.
+
 
 
 
