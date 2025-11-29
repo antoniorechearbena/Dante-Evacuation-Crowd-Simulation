@@ -55,7 +55,7 @@ In addition, real evacuation and emergency response data from past **Dante build
 
 - **`NetLogo Simulation.nlogox3d`**  
   Core agent-based model of the Dante building in NetLogo 3D.  
-  - Builds a multi-floor grid of the building (lecture halls, corridors, stairwells, exits). :contentReference[oaicite:0]{index=0}  
+  - Builds a multi-floor grid of the building (lecture halls, corridors, stairwells, exits).  
   - Spawns agents according to realistic occupancy (majority on the ground floor).  
   - Uses a flood-fill “exit score” field so agents always try to move to patches closer to an exit.  
   - Updates a **pressure** variable when agents are stuck because all neighboring patches are blocked; sustained high pressure is used as a proxy for crowd-crush risk.  
@@ -64,7 +64,7 @@ In addition, real evacuation and emergency response data from past **Dante build
 ### Statistical analysis scripts
 
 - **`Stats 1.py`** and **`Stats 2.py`**  
-  Python scripts for cleaning BehaviorSpace output and producing the evacuation-time figure. :contentReference[oaicite:1]{index=1}  
+  Python scripts for cleaning BehaviorSpace output and producing the evacuation-time figure. {index=1}  
   - Load the raw CSV exported from NetLogo (one row per tick per run).  
   - Drop redundant configuration columns (open exits, panic settings, etc.).  
   - Ensure `number-people`, `[run number]`, and `ticks` are numeric and sorted.  
@@ -74,7 +74,7 @@ In addition, real evacuation and emergency response data from past **Dante build
 - **`Stats for MAS - Part 2.ipynb`**  
   Jupyter notebook with the main statistical analysis used in the report:  
   - Computes evacuation speed (population size / ticks) and injury ratios.  
-  - Produces the scatterplots for evacuation speed vs. population and injured-people ratio vs. population. :contentReference[oaicite:2]{index=2}  
+  - Produces the scatterplots for evacuation speed vs. population and injured-people ratio vs. population. 
   - Runs inferential statistics (e.g., ANOVA) over the different population levels.
 
 ### Heatmap generation
